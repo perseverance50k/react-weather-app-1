@@ -1,0 +1,81 @@
+.current-weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 2px -2px 10px 2px rgb(0 0 0 / 20%);
+  background-color: royalblue;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+}
+
+/* TOP */
+
+.current-weather > .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-weather > .top > .paragraphs > p {
+  color: white;
+}
+
+.current-weather > .top > .paragraphs > .city-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.current-weather > .top > .paragraphs > .weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 2px 0;
+}
+
+.current-weather > .top > img {
+  width: 60px;
+}
+
+/* BOTTOM */
+
+.current-weather > .bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-weather > .bottom > p {
+  color: white;
+}
+
+.current-weather > .bottom > .temperature {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.current-weather > .bottom > .details {
+  width: 50%;
+}
+
+.current-weather > .bottom > .details > .parameter-row > span {
+  color: white;
+}
+
+.current-weather > .bottom > .details > .parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-weather > .bottom > .details > .parameter-row > .parameter-label {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.current-weather > .bottom > .details > .parameter-row > .parameter-value {
+  font-size: 15px;
+  font-weight: 600;
+}
